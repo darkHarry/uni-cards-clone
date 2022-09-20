@@ -1,6 +1,9 @@
 import React from 'react';
 import backgroundImg from '../black_background.webp';
 import cardAsset from '../card_asset.webp';
+import visa from '../backed_by_visa.svg';
+import places from '../places.webp';
+import reward_points from '../reward_points.webp';
 
 function HomePage() {
     return (
@@ -125,14 +128,14 @@ function HomePage() {
               </div>
             </div>
             <div class="info-caption">
-              <img src="/images/backed_by_visa.svg" alt="" class="mt-10 h-[50px] css-1e2fy0l" loading="lazy" />
+              <img src={visa} alt="" class="mt-10 h-[50px] css-1e2fy0l" loading="lazy" />
             </div>
           </div>
           <div class="w-full pt-16 lg:pt-0 lg:w-[50%]">
             <div class="flex justify-center overflow-hidden">
               <div class="relative w-[280px] lg:w-[448px]">
                 <img alt="" src="/images/redesign/semi-circle.svg" class="animate z-0 absolute w-[215px] lg:w-[380px] right-[60px] top-7 css-0" style={{ opacity: '1', transform: 'none'}} />
-                <img alt="" src="/images/redesign/places.webp" class="relative z-10 -left-4 -bottom-4 w-[280px] lg:w-[448px] css-0" />
+                <img alt="" src={places} class="relative z-10 -left-4 -bottom-4 w-[280px] lg:w-[448px] css-0" />
               </div>
             </div>
           </div>
@@ -152,7 +155,7 @@ function HomePage() {
             <div class="flex justify-center">
               <div class="relative w-[280px] lg:w-[448px]">
                 <div class="animate relative rounded-full w-44 h-44 left-4 top-6 lg:w-72 lg:h-72 lg:top-10 lg:left-10" style={{ backgroundColor: 'rgb(122, 255, 236)' , opacity: '1', transform: 'none' }}></div>
-                <img alt="" src="/images/redesign/reward_points.webp" loading="lazy" class="absolute -top-8 left-4 w-[280px] lg:w-[448px] bg-transparent css-0" />
+                <img alt="" src={reward_points} loading="lazy" class="absolute -top-8 left-4 w-[280px] lg:w-[448px] bg-transparent css-0" />
               </div>
             </div>
           </div>
