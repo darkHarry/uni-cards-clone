@@ -4,13 +4,14 @@ import cardAsset from '../card_asset.webp';
 import visa from '../backed_by_visa.svg';
 import places from '../places.webp';
 import reward_points from '../reward_points.webp';
+import '../index.css';
 
 function HomePage() {
     return (
         <main class="">
   <div class="flex flex-col bg-black">
     <div>
-      <section class="py-0" style={{ backgroundColor: '#000', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh', background: `url(${backgroundImg})`}}>
+      <section class="py-0" style={{ backgroundColor: '#000',background: `url(${backgroundImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh', }}>
         <div class="flex mx-auto w-full justify-center z-0 relative" style={{ height: '100vh', maxWidth: '1280px'}}>
           <img alt="card_asset" src={cardAsset} class="z-0 absolute w-[225px] md:w-[450px] -translate-x-1/2 md:left-auto md:right-0 md:-translate-x-0 top-[20%] md:top-[22%] -translate-y-[50%] md:-translate-y-[50%] css-0" style={{transform: 'translateY(3.00965px) translateZ(0px)', width: '225px' }} />
           <div class="z-10 w-full mb-28 md:my-auto flex flex-col self-end md:self-center px-6">
